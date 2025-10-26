@@ -8,16 +8,16 @@ Sistema de gestión de biblioteca basado en microservicios Django:
 Ambos servicios se comunican mediante JWT y se ejecutan con Docker.
 
 -------------------------------------------------
-** Indicaciones **
+Indicaciones 
 -------------------------------------------------
 
 ### 1. Clonar el repositorio
 git clone https://github.com/Dilan1615/Contenedor_biblioteca.git
-cd Contenedor_biblioteca
+* cd Contenedor_biblioteca
 
 ### 2. Construir y levantar los contenedores
-docker compose build
-docker compose up -d
+* docker compose build
+* docker compose up -d
 
 ### 3. Verificar que los servicios estén corriendo
 * docker ps
