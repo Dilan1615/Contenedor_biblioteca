@@ -1,5 +1,4 @@
-Libris - Sistema de Microservicios de Biblioteca
-=================================================
+**Libris - Sistema de Microservicios de Biblioteca**
 
 Sistema de gestión de biblioteca basado en microservicios Django:
 
@@ -9,31 +8,31 @@ Sistema de gestión de biblioteca basado en microservicios Django:
 Ambos servicios se comunican mediante JWT y se ejecutan con Docker.
 
 -------------------------------------------------
-Inicio Rápido
+** Indicaciones **
 -------------------------------------------------
 
-1. Clonar el repositorio
+### 1. Clonar el repositorio
 git clone https://github.com/Dilan1615/Contenedor_biblioteca.git
 cd Contenedor_biblioteca
 
-2. Construir y levantar los contenedores
+### 2. Construir y levantar los contenedores
 docker compose build
 docker compose up -d
 
-3. Verificar que los servicios estén corriendo
-docker ps
-docker logs -f auth_service_libris
-docker logs -f lectura_api_libris
+### 3. Verificar que los servicios estén corriendo
+* docker ps
+* docker logs -f auth_service_libris
+* docker logs -f lectura_api_libris
 
 -------------------------------------------------
-Puertos
+**Puertos**
 -------------------------------------------------
 
-auth_service : 8001 -> 8000
-lectura_api  : 8003 -> 8002
+* auth_service : 8001 -> 8000
+* lectura_api  : 8003 -> 8002
 
 -------------------------------------------------
-Variables de Entorno
+**Variables de Entorno**
 -------------------------------------------------
 
 - SECRET_KEY : clave secreta de Django
@@ -42,7 +41,7 @@ Variables de Entorno
 Se recomienda crear un archivo `.env` y NO subirlo al repositorio.
 
 -------------------------------------------------
-Estructura del Proyecto
+**Estructura del Proyecto**
 -------------------------------------------------
 
 LibraryV1/
